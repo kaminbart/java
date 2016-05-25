@@ -1,1 +1,29 @@
-
+if( warunek1 )
+  {
+    instrukcja1;
+  }
+  else if( warunek2 )
+  {
+    instrukcja2;
+  }
+  else
+  {
+    instrukcja3;
+  }
+  
+przykład1
+******************************************************************************************************************
+	int zmiennaliczbowa1 = 5;
+	int zmiennaliczbowa2 = 12;
+	int dodawanie = zmiennaliczbowa1 + zmiennaliczbowa2;
+	int odejmowanie = zmiennaliczbowa1 - zmiennaliczbowa2;
+	
+	if(zmiennaliczbowa1 != zmiennaliczbowa2)
+	{
+		System.out.println("Liczby są różne a ich suma wynosi: " + dodawanie);
+	}
+	else
+	{
+		System.out.println("Liczby są takie same a ich różnica wynosi: " + odejmowanie );
+	}
+	******************************************************************************************************************
